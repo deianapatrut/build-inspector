@@ -7,6 +7,7 @@ import org.dxworks.buildinspector.configuration.ConfigurationDTO
 import org.dxworks.buildinspector.statistics.AverageDurationStatistic
 import org.dxworks.buildinspector.statistics.BranchDistributionStatistic
 import org.dxworks.buildinspector.statistics.BuildsPassedStatistic
+import org.dxworks.buildinspector.statistics.DistributionOnDaysStatistic
 import java.io.File
 
 class Main {
@@ -41,6 +42,7 @@ class Main {
         BuildsPassedStatistic().analyze()
         AverageDurationStatistic().analyze()
         BranchDistributionStatistic().analyze()
+        DistributionOnDaysStatistic().analyze()
     }
 }
 

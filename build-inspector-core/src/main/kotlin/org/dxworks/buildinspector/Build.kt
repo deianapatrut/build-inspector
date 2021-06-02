@@ -2,8 +2,8 @@ package org.dxworks.buildinspector
 
 class Build(
     var name: String?,
-    var id: Int,
-    var duration: Int?,
+    var id: Number,
+    var duration: Number?,
     var timestamp: String?,
     result: String?,
     event: String?,

@@ -1,12 +1,10 @@
-import org.dxworks.buildinspector.Main
-import org.dxworks.buildinspector.statistics.BuildsPassedStatistic
+import org.dxworks.buildinspector.analyze
 import org.junit.Test
 
-internal class  StatisticServiceIT {
+internal class StatisticServiceIT {
     @Test
     fun write() {
-        val main = Main()
-        main.analyze()
+        analyze()
 
     }
 

@@ -11,15 +11,19 @@ github:
   # The values of the map represent a String formed from two parts delimited by the / character: owner/repo.
   # The first part represents the owner and the last one stands for the name of the specific repository.
   repos:
+    insgit: dxworks/inspector-git
 
   # A list of Personal Access Tokens, used for authentication.
   # If the server you are connected to has Rate Limits activated,
   # Github Miner will perform faster if multiple tokens (from different users) are provided.
   # This list is *required if the client want to use a Github project.
   tokens:
+    - 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
 
 
 # A map of urls to project on Jenkins.
 # The key represents the name of the result file for that project and the value is the url of project.
 jenkins:
+  #kafka: https://builds.apache.org/job/Kafka/
+  #accumulo: https://ci-builds.apache.org/job/Accumulo/
 
